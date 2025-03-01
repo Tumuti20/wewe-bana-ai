@@ -1,0 +1,148 @@
+const products = [
+  {
+    name: "Premium Wireless Headphones",
+    image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and comfortable over-ear design for extended listening sessions.",
+    brand: "AudioTech",
+    category: "electronics",
+    price: 129.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+    discount: 15,
+    isNew: true,
+    isFeatured: true,
+    colors: ["black", "silver", "blue"],
+    sizes: [],
+  },
+  {
+    name: "Ergonomic Office Chair",
+    image:
+      "https://images.unsplash.com/photo-1505740106531-4243f3831c78?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Stay comfortable during long work hours with this ergonomic office chair. Features adjustable height, lumbar support, and breathable mesh back.",
+    brand: "ComfortPlus",
+    category: "furniture",
+    price: 249.99,
+    countInStock: 7,
+    rating: 4.2,
+    numReviews: 8,
+    discount: 0,
+    isNew: false,
+    isFeatured: true,
+    colors: ["black", "gray"],
+    sizes: [],
+  },
+  {
+    name: "Smart Fitness Watch",
+    image:
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Track your fitness goals with this advanced smartwatch. Features heart rate monitoring, GPS tracking, sleep analysis, and water resistance up to 50 meters.",
+    brand: "TechFit",
+    category: "electronics",
+    price: 199.99,
+    countInStock: 5,
+    rating: 4.7,
+    numReviews: 15,
+    discount: 10,
+    isNew: true,
+    isFeatured: true,
+    colors: ["black", "blue", "red"],
+    sizes: ["S", "M", "L"],
+  },
+  {
+    name: "Organic Cotton T-Shirt",
+    image:
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Made from 100% organic cotton, this comfortable t-shirt is perfect for everyday wear. Sustainably sourced and ethically manufactured.",
+    brand: "EcoWear",
+    category: "clothing",
+    price: 34.99,
+    countInStock: 20,
+    rating: 4.0,
+    numReviews: 10,
+    discount: 5,
+    isNew: false,
+    isFeatured: false,
+    colors: ["white", "black", "gray", "blue"],
+    sizes: ["S", "M", "L", "XL"],
+  },
+  {
+    name: "Stainless Steel Water Bottle",
+    image:
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Keep your drinks hot or cold for hours with this double-walled stainless steel water bottle. Leak-proof design and BPA-free construction.",
+    brand: "HydroLife",
+    category: "accessories",
+    price: 24.99,
+    countInStock: 15,
+    rating: 4.8,
+    numReviews: 20,
+    discount: 0,
+    isNew: false,
+    isFeatured: false,
+    colors: ["silver", "black", "blue", "red"],
+    sizes: [],
+  },
+  {
+    name: "Bluetooth Portable Speaker",
+    image:
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Take your music anywhere with this compact Bluetooth speaker. Features 12-hour battery life, waterproof design, and rich, clear sound.",
+    brand: "AudioTech",
+    category: "electronics",
+    price: 79.99,
+    countInStock: 8,
+    rating: 4.3,
+    numReviews: 14,
+    discount: 20,
+    isNew: true,
+    isFeatured: true,
+    colors: ["black", "blue", "red"],
+    sizes: [],
+  },
+  {
+    name: "Leather Wallet",
+    image:
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Crafted from genuine leather, this slim wallet features multiple card slots, a bill compartment, and RFID blocking technology.",
+    brand: "LuxeLeather",
+    category: "accessories",
+    price: 49.99,
+    countInStock: 12,
+    rating: 4.1,
+    numReviews: 9,
+    discount: 0,
+    isNew: false,
+    isFeatured: false,
+    colors: ["brown", "black"],
+    sizes: [],
+  },
+  {
+    name: "Ceramic Coffee Mug Set",
+    image:
+      "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    description:
+      "Set of 4 ceramic coffee mugs in assorted colors. Microwave and dishwasher safe with a comfortable handle and 12oz capacity.",
+    brand: "HomeEssentials",
+    category: "home",
+    price: 29.99,
+    countInStock: 10,
+    rating: 4.4,
+    numReviews: 11,
+    discount: 0,
+    isNew: false,
+    isFeatured: false,
+    colors: ["white", "black", "blue", "red"],
+    sizes: [],
+  },
+];
+
+export default products;
